@@ -41,7 +41,7 @@ class Biblioteca{
 public class MainBiblioteca {
 
     public static void main(String[] args) {
-        Biblioteca libro1 = new Biblioteca("Geronimo",10,2,200,"Mondadori","Elisabetta Dami",20);
+        Biblioteca libro1 = new Biblioteca("Il diario di una schiappa",10,2,200,"Mondadori","Elisabetta Dami",20);
         libro1.stampa();
     }
 }
