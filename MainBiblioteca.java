@@ -17,9 +17,10 @@ class Biblioteca{
     String casa_editrice;
     String autore;
     int copie_disp;
-    
+    String genere;
+	
     //costruttore
-    public Biblioteca(String nome_libro, int prezzo, int scaffale, int pagine, String casa_editrice, String autore, int copie_disp){
+    public Biblioteca(String nome_libro, int prezzo, int scaffale, int pagine, String casa_editrice, String autore, int copie_disp, String genere){
         this.nome_libro = nome_libro;
         this.prezzo = prezzo;
         this.scaffale = scaffale;
@@ -27,11 +28,12 @@ class Biblioteca{
         this.casa_editrice = casa_editrice;
         this.autore = autore;
         this.copie_disp = copie_disp;
+	this.genere = genere;
     }
     
     //metodi
     public void stampa(){
-        System.out.println("Libro: "+ nome_libro+"\n"+"Prezzo: "+prezzo+"\n"+"Scaffale: "+scaffale+"\n"+"Pagine: "+pagine+"\n"+"Casa editrice: "+casa_editrice+"\n"+"Autore: "+autore+"\n"+"Copie disponibili: "+copie_disp);
+        System.out.println("Libro: "+ nome_libro+"\n"+"Prezzo: "+prezzo+"\n"+"Scaffale: "+scaffale+"\n"+"Pagine: "+pagine+"\n"+"Casa editrice: "+casa_editrice+"\n"+"Autore: "+autore+"\n"+"Copie disponibili: "+copie_disp+"\n"+"Genere: "+genere);
 
 //Da aggiungere: diminuzione del prezzo del 10% e inizializzazione dei campi
     
@@ -65,7 +67,7 @@ class Negozio{
 public class MainBiblioteca {
 
     public static void main(String[] args) {
-        Biblioteca libro1 = new Biblioteca("Il diario di una schiappa",10,2,200,"Mondadori","Elisabetta Dami",20);
+        Biblioteca libro1 = new Biblioteca("Il diario di una schiappa",10,2,200,"Mondadori","Elisabetta Dami",20,"Giallo");
         libro1.stampa();
     	Negozio negozio1 = new Negozio("Via XXII Aprile, 23","Il libraio","Il diario di una schiappa");
     	negozio1.vendita();
