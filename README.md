@@ -6,7 +6,6 @@ Classe LIBRO:
 Attributi:
 	nome_libro
 	prezzo
-	scaffale
 	pagine
 	casa_editrice
 	autore
