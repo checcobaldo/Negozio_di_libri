@@ -10,6 +10,7 @@ Attributi:
 	casa_editrice
 	autore
 	copie_disp
+	genere
 
 Metodi:
 	inizializzazione
