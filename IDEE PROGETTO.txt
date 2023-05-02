@@ -1,0 +1,14 @@
+IDEE PROGETTO
+Baldo: Database
+Sammy: Codice del negozio
+Greta: Documentazione (Excel)
+Aurora: Interfaccia
+Marco: Codice del negozio
+
+Lo facciamo come se fosse un E-Commerce
+Per il database si usa SQLite.
+Prima di iniziare il codice sarebbe importante avere una minima interfaccia. (A U R O R A  M U O V I T I)
+
+
+GENERI:
+Giallo, Romantico, Thriller, Fantasy, Storico, classico, Horror, Fantascienza, Per la Bi.
