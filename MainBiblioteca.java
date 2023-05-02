@@ -18,9 +18,10 @@ class Biblioteca{
     String autore;
     int copie_disp;
     String genere;
-	
+    bool copertina;
+    
     //costruttore
-    public Biblioteca(String nome_libro, int prezzo, int scaffale, int pagine, String casa_editrice, String autore, int copie_disp, String genere){
+    public Biblioteca(String nome_libro, int prezzo, int scaffale, int pagine, String casa_editrice, String autore, int copie_disp, String genere, bool copertina){
         this.nome_libro = nome_libro;
         this.prezzo = prezzo;
         this.scaffale = scaffale;
@@ -29,6 +30,7 @@ class Biblioteca{
         this.autore = autore;
         this.copie_disp = copie_disp;
 	this.genere = genere;
+	this.copertina = copertina;
     }
     
     //metodi
