@@ -1,0 +1,6 @@
+IDEE PROGETTO
+Baldo: Database
+Sammy: Codice del negozio
+Greta: Documentazione (Excel)
+Aurora: Interfaccia
+Marco: Codice del negozio
