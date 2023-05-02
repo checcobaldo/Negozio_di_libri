@@ -12,6 +12,7 @@ Attributi:
 	autore
 	copie_disp
 	genere
+	copertina (rigida/morbida)
 
 Metodi:
 	inizializzazione
