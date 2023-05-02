@@ -3,7 +3,7 @@ Progetto boblioteca G.Marconi
 
 Classe LIBRO:
 Attributi:
-	nome_negozio
+	nome_libro
 	prezzo
 	scaffale
 	pagine
