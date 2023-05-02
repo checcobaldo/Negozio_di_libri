@@ -1,5 +1,6 @@
 # biblioteca
-Progetto boblioteca G.Marconi
+Progetto: "Negozio di libri" 
+G.Marconi - Pavullo nel Frignano(MO)
 
 Classe LIBRO:
 Attributi:
