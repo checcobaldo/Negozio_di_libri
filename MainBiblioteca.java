@@ -32,8 +32,32 @@ class Biblioteca{
     //metodi
     public void stampa(){
         System.out.println("Libro: "+ nome_libro+"\n"+"Prezzo: "+prezzo+"\n"+"Scaffale: "+scaffale+"\n"+"Pagine: "+pagine+"\n"+"Casa editrice: "+casa_editrice+"\n"+"Autore: "+autore+"\n"+"Copie disponibili: "+copie_disp);
-    }
+
+//Da aggiungere: diminuzione del prezzo del 10% e inizializzazione dei campi
+    
+            }
 }
+
+class Negozio{
+	String indirizzo;
+	String nome;
+	String libri_disp;
+	
+	public Negozio(String indirizzo, String nome, String libri_disp){
+		this.indirizzo = indirizzo;
+		this.nome = nome;
+		this.libri_disp = libri_disp;
+	}
+	
+	public void vendita(){
+		System.out.println("Il libro: "+libri_disp+" e' disponibile");
+
+	//Da aggiungere: inserimento nuovi libri e ricerca di libri disponibili
+
+	}
+}
+
+
 
 
 
@@ -43,5 +67,7 @@ public class MainBiblioteca {
     public static void main(String[] args) {
         Biblioteca libro1 = new Biblioteca("Il diario di una schiappa",10,2,200,"Mondadori","Elisabetta Dami",20);
         libro1.stampa();
+    	Negozio negozio1 = new Negozio("Via XXII Aprile, 23","Il libraio","Il diario di una schiappa");
+    	negozio1.vendita();
     }
 }
